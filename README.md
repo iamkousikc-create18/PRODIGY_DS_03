@@ -3,9 +3,11 @@ PRODIGY_DS_03
 Task 3: Decision Tree Classifier with SMOTE for Customer Purchase Prediction
 
 Objective
+
 The objective of this task is to build a Decision Tree Classifier to predict whether a customer will subscribe to a term deposit based on their demographic and behavioral data. Additionally, SMOTE (Synthetic Minority Oversampling Technique) is applied to handle class imbalance and improve model performance.
 
 Dataset
+
 The dataset used is the Bank Marketing Dataset, which contains customer information collected during a marketing campaign.
 
 Features
@@ -54,10 +56,13 @@ Steps Performed
  - Classification Report
 
 Model Used
+
 Decision Tree Classifier
+
 A Decision Tree is a supervised learning algorithm that splits the dataset into branches based on feature values to make predictions.
 
 Handling Imbalanced Data
+
 The dataset had class imbalance, so SMOTE (Synthetic Minority Oversampling Technique) was used to generate synthetic samples for the minority class, improving model performance.
 
 Results
@@ -66,6 +71,7 @@ Results
  - Evaluation metrics such as confusion matrix and classification report were used to assess performance.
 
 Project Structure
+
 PRODIGY_DS_03
 
 ├── bank.csv
@@ -73,4 +79,5 @@ PRODIGY_DS_03
 └── README.md
 
 Conclusion
+
 This project demonstrates how machine learning models like Decision Trees can be used to predict customer behavior. Handling imbalanced data using techniques like SMOTE significantly improves model performance and reliability.
